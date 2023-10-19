@@ -1,0 +1,70 @@
+<!-- Start Page Title Area -->
+<section class="page-title-area uk-page-title">
+    <div class="uk-container">
+        <h1>FAQ</h1>
+        <ul>
+            <li><a routerLink="/">Home</a></li>
+            <li>FAQ</li>
+        </ul>
+    </div>
+</section>
+<!-- End Page Title Area -->
+
+<!-- Start Contact Area -->
+<div class="container">
+    <div class="accordion" id="faqAccordion">
+        <h1 class="text-center">After register</h1>
+        <div class="mb-4">
+            <div class="accordion-item" *ngFor="let item of faqItems1; let i = index">
+                <h2 class="accordion-header ">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        [attr.data-bs-target]="'#faqItem' + i">
+                        {{ item.question }}
+                    </button>
+                </h2>
+                <div [id]="'faqItem' + i" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        {{ item.answer }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion" id="faqAccordion">
+        <h1 class="text-center">During the Event</h1>
+        <div class="mb-4">
+            <div class="accordion-item" *ngFor="let item of faqItems2; let i = index">
+                <h2 class="accordion-header ">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        [attr.data-bs-target]="'#faqItem2' + i">
+                        {{ item.question }}
+                    </button>
+                </h2>
+                <div [id]="'faqItem2' + i" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        {{ item.answer }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion" id="faqAccordion">
+        <h1 class="text-center">After Event</h1>
+        <div class="mb-4">
+            <div class="accordion-item" *ngFor="let item of faqItems3; let i = index">
+                <h2 class="accordion-header ">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        [attr.data-bs-target]="'#faqItem3' + i">
+                        {{ item.question }}
+                    </button>
+                </h2>
+                <div [id]="'faqItem3' + i" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        {{ item.answer }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Contact Area -->
