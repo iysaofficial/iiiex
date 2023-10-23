@@ -12,7 +12,7 @@ export class FAQComponent implements OnInit {
         {
             question:
                 "1. Minsa, when will we get our LoA and Invoice? Where was it sent?",
-            answer: "The committee will send LoA and Invoice no later than 7 working days after you register. We will send the LoA and Invoice to the team leaders email, so make sure you include a valid and correct email address!",
+            answer: "The committee will send LoA and Invoice no later than 14 working days after you register. We will send the LoA and Invoice to the team leaders email, so make sure you include a valid and correct email address!",
         },
         {
             question:
