@@ -2362,6 +2362,39 @@ Project CSS
         }
     }
 }
+
+// TICKET SECTION START
+// TICKET SECTION START
+.ticket-section{
+    padding: 8rem 3rem 8rem 3rem;
+}
+
+
+.ticket-section .wrapper-ticket .text-ticket {
+    // display: flexbpx;
+    justify-content: center;
+    align-items: center;
+}
+.ticket-section .wrapper-ticket .text-ticket p{
+    text-align: justify;
+}
+.ticket-section .wrapper-ticket .image-ticket {
+    padding-bottom: 5rem;
+}
+.ticket-section .wrapper-ticket .image-ticket img{
+    border-radius: 100px;
+    border: solid 0.3rem #ff4800;
+}
+
+.ticket-section .wrapper-frame iframe{
+    border-radius: 10px;
+    margin-top: 2rem;
+    // filter: drop-shadow( 1rem 1rem 25px #ff4800);
+    border: solid 0.3rem #ff4800;
+}
+// TICKET SECTION END
+// TICKET SECTION END
+
 .project-section {
     position: relative;
     z-index: 1;
